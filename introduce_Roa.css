@@ -1,14 +1,24 @@
 body {
-  background: linear-gradient(270deg, #ff7e5f, #feb47b);
+  background: linear-gradient(
+    0deg,
+    #ffbbc6,
+    #ffc5d0,
+    #ffafe6,
+    #ffb4eb,
+    #ffb9f0,
+    #ffbef5,
+    #ffc3fa,
+    #f4b6d9
+  );
   background-size: 400% 400%;
   animation: gradientMove 5s infinite alternate;
 }
 
 @keyframes gradientMove {
   0% {
-    background-position: 0% 50%;
+    background-position: 50% 0%;
   }
   100% {
-    background-position: 100% 50%;
+    background-position: 50% 100%;
   }
 }
